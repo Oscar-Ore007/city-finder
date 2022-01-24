@@ -20,9 +20,7 @@ const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb
 
 const cities = []; 
 
-fetch(endpoint, function(data) {
-    console.log(data)
-})
+fetch(endpoint).then(blob => console.log(blob));
 </script>
 </body>
 </html>
